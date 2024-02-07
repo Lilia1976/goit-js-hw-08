@@ -1,0 +1,26 @@
+a:hover {
+  cursor: url(../images/vector.png), pointer;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  gap: 24px;
+  justify-content: center; /* Центрувати елементи по головній осі */
+  align-items: center; /* Центрувати елементи по поперечній осі */
+}
+
+.gallery-item {
+  text-align: center; /* Центрувати зображення всередині батьківського елемента */
+}
+
+.gallery-link {
+  display: inline-block; /* Центрувати по горизонталі */
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+}
